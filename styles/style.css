@@ -40,8 +40,36 @@ body {
   margin: 32px 0;
   font-weight: 700;
   font-size: 32px;
+  color: rgba(14, 14, 14, 1);
 }
 
 .hero-section {
-    background-color: #fff;
+  border-radius: 24px;
+  background: rgba(198, 228, 214, 1);
+  display: flex;
+  align-items: center;
+  padding: 80px 60px;
+  gap: 60px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-section .hero-left h3 {
+  color: rgba(14, 14, 14, 0.5);
+}
+
+.hero-left button {
+  width: max-content;
+  padding: 17px 34px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+  border: none;
+  margin-top: 24px;
 }
