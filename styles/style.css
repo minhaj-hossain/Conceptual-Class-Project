@@ -197,11 +197,6 @@ body {
   margin-bottom: 32px;
 }
 
-.news-cards {
-  /* display: flex;
-  gap: 24px; */
-}
-
 .card {
   display: flex;
   border-radius: 24px;
@@ -231,4 +226,54 @@ body {
   background: rgba(0, 106, 80, 1);
   color: white;
   border: none;
+}
+
+.donate-container {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.donate-header-para {
+  margin: 24px 88px 0 88px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.donate-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.donate-card {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  padding: 40px;
+  margin: 32px 0;
+}
+
+.donate-card-color {
+  background: rgba(198, 228, 214, 1);
+}
+.donate-input-ammount {
+  display: flex;
+  justify-content: center;
+}
+
+.donate-input-ammount input {
+  padding: 20px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 15px;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.donate-btn {
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
 }
